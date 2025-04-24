@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffdfd;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffd3d3;
+  padding: 1em;
+  text-align: center;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px;
+}
+
+#gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+
+#random-cat {
+  text-align: center;
+  margin: 20px;
+}
